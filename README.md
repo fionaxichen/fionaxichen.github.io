@@ -152,23 +152,33 @@ We can first analyze new users
 
 ![image](https://user-images.githubusercontent.com/120151846/206622477-e00bcc42-3984-4a18-ae4e-016290961e10.png)
 
-- Engagement also includes new users
-  * Analyze user lifetime using retention analysis: 
-      * It shows user lifetime is around 20 weeks. 
-      * This means most of users will churn in 20 weeks after they first signup.
+Engagement also includes new users
+- Analyze user lifetime using retention analysis: 
+  * It shows user lifetime is around 20 weeks. 
+  * This means most of users will churn in 20 weeks after they first signup.
 
 ![image](https://user-images.githubusercontent.com/120151846/206622615-115e7546-3955-4f3f-aff2-d7017688f855.png)
 
-- Analyze devices including computer, phone, and tablet: 
+- Analyze devices including computers, phones, and tablets: 
   * There is a steep drop in both phone and tablet engagement rates. 
-  * It is likely that there’s a problem with phone and tabletrelated to long time user retention
+  * It is likely that there’s a problem with phones and tablets related to the long time user retention
 
 ![image](https://user-images.githubusercontent.com/120151846/206622684-09f5f88f-6462-480d-9d72-d1295de02782.png)
 
 - Analyze emails and email clickthrough rate
-  * Email sent = number of weekly digest + number of reengagement emails
+  * Email sent = number of weekly digest + number of re-engagement emails
   * Clickthrough rate plummeted, indicating clearly that the problem has to do with emails in addition to devices
 
+![image](https://user-images.githubusercontent.com/120151846/206623551-efaab95e-2cf0-4ede-b739-d066a6a21f34.png)
+![image](https://user-images.githubusercontent.com/120151846/206623588-9feecaf8-df57-4acc-8d25-5908fed3abb2.png)
+
+## Recommendations
+
+After investigation, it appears that the problem has to do with devices, including phones and tablets, and emails. <br>
+- Next step:
+  * Notify the Product Manager that phone and tablet apps have problems, and email links might not be working properly
+  * If email links work then communicate with the marketing team to check all the email templates sent last month
+    * The template might not be intriguing enough to attract users to click these emails
 
 
 
