@@ -81,8 +81,7 @@ In this simulated dataset, we have been running an A/B test on our shopper hirin
 The background check costs us $30 to complete. A shopper must both activate the prepaid debit card we mail to them (to use when paying for groceries purchased for our customers) and have successfully passed their background check to complete their first batch of orders. Completing the online orientation, however, is optional. <br>
 In this scenario, “success” for our shopper recruiting funnel is achieved if they complete their first batch (see “first_batch_completed_date”)
 
-## Questions
-###### 1. Based on this data. What can we conclude at this point from the A/B test (in which we tried initiating the background check earlier in the hiring process for the treatment shoppers)? And how confident should we be in this conclusion?
+## Question 1: Based on this data. What can we conclude at this point from the A/B test (in which we tried initiating the background check earlier in the hiring process for the treatment shoppers)? And how confident should we be in this conclusion?
 
 Null hypothesis: no difference between control and treatment groups <br>
 Alternative hypothesis: control group and treatment group are different <br>
@@ -94,7 +93,7 @@ Thus, we can conclude that initiating the background check earlier in the hiring
 ![image](https://user-images.githubusercontent.com/120151846/206619891-f5a82098-d6e9-4706-b929-c89abb4b82af.png)
 ![image](https://user-images.githubusercontent.com/120151846/206619935-f79b788e-671b-4e02-8415-635e286a2a7d.png)
 
-###### 2. We’d like to know if this change is cost-effective. How should we think about the cost-effectiveness of this change? Please be as specific as you can here.
+## Question 2: We’d like to know if this change is cost-effective. How should we think about the cost-effectiveness of this change? Please be as specific as you can here.
 
 In this case, the average cost per first batch completion is the most effective metric to evaluate whether this is change is cost-effective or not. <br>
 
@@ -106,7 +105,7 @@ The reason for social media channel’s lower reduction in cost is that people w
 ![image](https://user-images.githubusercontent.com/120151846/206620200-557aa134-e790-4ec8-b2ac-718aa8403c8f.png)
 ![image](https://user-images.githubusercontent.com/120151846/206620246-c0f52c34-96d2-4c18-99b9-66b966f0f3e0.png)
 
-###### 3. What other observations and recommendations do you have for us, based on this data? (for example, what else did you find that seems relevant, or what else would you want to test if we ran an additional experiment?)
+## Question 3: What other observations and recommendations do you have for us, based on this data? (for example, what else did you find that seems relevant, or what else would you want to test if we ran an additional experiment?)
 
 Observations:
 1. Job search site channel
