@@ -20,15 +20,18 @@ Return articles that contain the keyword <br>
   - Get the time range using datetime 
   - Extract data for all news articles from News API with the parameters
   - Extract data from News API that contains user’s keyword
+ 
 ![image](https://user-images.githubusercontent.com/120151846/206617246-67a0f938-094a-4736-8fa2-a00633e6e766.png)
 ![image](https://user-images.githubusercontent.com/120151846/206617408-13947833-3e16-4a38-947e-4c6079ebac21.png)
 
   - Calculate the popularity
   - Transfer data from Json into lists using for loops
+ 
 ![image](https://user-images.githubusercontent.com/120151846/206617522-eb1823bb-8683-4715-98ed-433bd909f834.png)
 
   - Create a table that contains: Title, Published date, Description, Source, 
   - Return the popularity of the keyword and table of related articles’ information
+ 
  ![image](https://user-images.githubusercontent.com/120151846/206617821-0f558f8a-ede3-4ff2-bafb-45f06ec8ed49.png)
  
 ## Function 2: Top Headlines
@@ -38,27 +41,34 @@ Identify the most popular keywords worldwide <br>
 
 *Code:*
   - Choose countries that we want to get the information from and create columns that we need.
+ 
  ![image](https://user-images.githubusercontent.com/120151846/206617974-64603f74-006a-49eb-b16a-75c6d6caaed7.png)
  ![image](https://user-images.githubusercontent.com/120151846/206618036-525bc2e7-350a-45cf-9682-209ceed067e6.png)
  
   - Tokenize and lemmatize words, including cleansing the text of special characters; returns a lemmatized list
+ 
 ![image](https://user-images.githubusercontent.com/120151846/206618111-4402a141-d9e8-47b6-925f-2f360566e681.png)
 
   - Get rid of all stop words, returns a word list without any stop words
+ 
 ![image](https://user-images.githubusercontent.com/120151846/206618190-132842e2-b9df-405f-bc3f-d7b9439d88cc.png)
 
   - Generates a dictionary using word and frequency lists to count occurrences of words in headlines
+ 
  ![image](https://user-images.githubusercontent.com/120151846/206618287-b56b36d7-5ff6-4cb8-8204-b708628fee96.png)
  
   - Run a news title processing from the beginning to end; returns a dictionary with word and frequency
+ 
 ![image](https://user-images.githubusercontent.com/120151846/206618357-f7d4c995-e22e-4577-baf5-d605cbb90f83.png)
 
   - Run all defined functions, sort the word list, and generate word cloud visualization
+ 
 ![image](https://user-images.githubusercontent.com/120151846/206618411-8adb98b1-dfd9-4841-bfc2-882dd0a6d919.png)
 
 ![image](https://user-images.githubusercontent.com/120151846/206618458-07d399e1-11af-43f2-b2f9-3e82094860d8.png)
 
 ## Result and Visualization:
+
 ![image](https://user-images.githubusercontent.com/120151846/206618571-7d851bf7-a7a0-4e76-94bd-2bf55009d868.png)
 ![image](https://user-images.githubusercontent.com/120151846/206618601-b9542606-5400-4077-b689-d908b034bbd5.png)
 ![image](https://user-images.githubusercontent.com/120151846/206618640-70c5f88d-ab93-4543-9290-759f211a1783.png)
@@ -91,6 +101,7 @@ In this case, the average cost per first batch completion is the most effective 
 Based on the Tableau chart, we can see that cost per first batch completion for all four channels have reduced when we initiate background check earlier. It is especially cost-effective for job search site channel, shopper referral bonus channel, and web search engine channel. <br>
 
 The reason for social media channel’s lower reduction in cost is that people who use social media to start this application are likely not very serious about job hunting, for they passively click on the advertisement instead of actively looking for a job by using channels such as job search sites.
+
 ![image](https://user-images.githubusercontent.com/120151846/206620172-3b34aa98-1fea-4138-b81e-399d0a331ff5.png)
 ![image](https://user-images.githubusercontent.com/120151846/206620200-557aa134-e790-4ec8-b2ac-718aa8403c8f.png)
 ![image](https://user-images.githubusercontent.com/120151846/206620246-c0f52c34-96d2-4c18-99b9-66b966f0f3e0.png)
@@ -110,6 +121,7 @@ Observations:
 4. Web search engine channel
 - Lower conversion rate in the control group
 - Conversion rate will significantly improve if initiating background check ealier
+
 ![image](https://user-images.githubusercontent.com/120151846/206620882-3794745d-3c4b-4712-877c-7f2f851b738b.png)
 
 Recommendations:
