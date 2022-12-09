@@ -74,7 +74,7 @@ Identify the most popular keywords worldwide <br>
 ![image](https://user-images.githubusercontent.com/120151846/206618640-70c5f88d-ab93-4543-9290-759f211a1783.png)
 
 
-# Project 2: Shopper Hiring Problem Project (Used Bigquery SQL and Tableau)
+# Project 2: Shopper Hiring Problem Project (Used BigQuery SQL and Tableau)
 
 ## Context
 In this simulated dataset, we have been running an A/B test on our shopper hiring funnel to see if initiating the required applicant background check earlier in the process would improve conversion rates. The theory is that shoppers will maintain their momentum and be more likely (and start more quickly) if the required prerequisites are completed faster. <br>
@@ -126,6 +126,44 @@ Observations:
 Recommendations:
 1. The conversion rate in social media channel’s treatment group did not improve very much. One reason is that its conversion rate in the control group is already the highest. However, even with such high control conversion rate, its treatment conversion rate is actually the lowest amonth the four channels. Therefore, we could evaluate the ROI of both control and treatment groups, which is channel advertising cost + $30 background fee. If treatment ROI is larger than that of the control group then we should initiate background check earlier. If it is smaller than its control group, then we should not initiate early.
 2. Perform another A/B Test to evaluate if mandatory orientation could improve the conversion rate.
+
+# Project 3: User Engagement Analysis Project (Used DBeaver PostgresSQL and Tableau)
+
+## Context
+User dataset event.csv and email.csv to analyze why the user engagement, which is the number of logins, decreased last month.
+
+## Solution
+Users can be separated into two segments: existing users and new users
+- Based on the data provided in the email.csv, we can conclude that when event_type = signup_flow, the corresponding user id belongs to a new user since you have to complete signup before trying to login.
+
+We can first analyze new users
+- event_type = signup_flow has additional four steps under event_name. To find out the order of these steps, we can check their number of users in each step. Larger the number of users, earlier the step. Based on the result:
+
+***create_user  —>  enter_email  —>  enter_info  —>  complete_signup***
+
+![image](https://user-images.githubusercontent.com/120151846/206622226-94d11064-90c7-4aca-a466-bef6a4fae32c.png)
+![image](https://user-images.githubusercontent.com/120151846/206622258-8ff2b568-6a34-4957-89e8-5a72ae15f856.png)
+
+- I used funnel analysis to analyze the four steps: calculate the number of users who have converted through each step of the funnel. After entering email, the conversion rates do not have a severe drop-off of user.
+
+![image](https://user-images.githubusercontent.com/120151846/206622397-b4f98475-2df3-484f-8e4a-c454d5173b2f.png)
+
+- Below we can see that the trend for all four steps is relatively constant, which is high during the week and low on weekends. Since this trend is normal, it is possible that the dip in user engagement is coming from existing users as opposed to new users.
+
+![image](https://user-images.githubusercontent.com/120151846/206622477-e00bcc42-3984-4a18-ae4e-016290961e10.png)
+
+Engagement also includes new users
+- Analyze user lifetime using retention analysis: It shows user lifetime is around 20 weeks. This means most of users will churn in 20 weeks after they first signup.
+
+![image](https://user-images.githubusercontent.com/120151846/206622615-115e7546-3955-4f3f-aff2-d7017688f855.png)
+
+- Analyze devices including computer, phone, and tablet: There is a steep drop in both phone and tablet engagement rates. It is likely that there’s a problem with phone and tabletrelated to long time user retention
+
+![image](https://user-images.githubusercontent.com/120151846/206622684-09f5f88f-6462-480d-9d72-d1295de02782.png)
+
+- Analyze emails and email clickthrough rate
+  Email sent = number of weekly digest + number of reengagement emails
+    Clickthrough rate plummeted, indicating clearly that the problem has to do with emails in addition to devices
 
 
 
