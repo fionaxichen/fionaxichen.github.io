@@ -72,7 +72,8 @@ The background check costs us $30 to complete. A shopper must both activate the 
 In this scenario, “success” for our shopper recruiting funnel is achieved if they complete their first batch (see “first_batch_completed_date”)
 
 ## Questions
-###### Based on this data. What can we conclude at this point from the A/B test (in which we tried initiating the background check earlier in the hiring process for the treatment shoppers)? And how confident should we be in this conclusion?
+###### 1. Based on this data. What can we conclude at this point from the A/B test (in which we tried initiating the background check earlier in the hiring process for the treatment shoppers)? And how confident should we be in this conclusion?
+
 Null hypothesis: no difference between control and treatment groups <br>
 Alternative hypothesis: control group and treatment group are different <br>
 
@@ -83,7 +84,7 @@ Thus, we can conclude that initiating the background check earlier in the hiring
 ![image](https://user-images.githubusercontent.com/120151846/206619891-f5a82098-d6e9-4706-b929-c89abb4b82af.png)
 ![image](https://user-images.githubusercontent.com/120151846/206619935-f79b788e-671b-4e02-8415-635e286a2a7d.png)
 
-*We’d like to know if this change is cost-effective. How should we think about the cost-effectiveness of this change? Please be as specific as you can here.* <br>
+###### 2. We’d like to know if this change is cost-effective. How should we think about the cost-effectiveness of this change? Please be as specific as you can here.
 
 In this case, the average cost per first batch completion is the most effective metric to evaluate whether this is change is cost-effective or not. <br>
 
