@@ -15,7 +15,8 @@ We will create a Flask app that gathers data on news from all over the world, al
 Allows users to input a keyword using its API parameter “q” <br>
 Searches through articles from over 80,000 large and small news sources and blogs <br>
 Return articles that contain the keyword <br>
-Code:
+
+*Code:*
   - Get the time range using datetime 
   - Extract data for all news articles from News API with the parameters
   - Extract data from News API that contains user’s keyword
@@ -34,7 +35,8 @@ Code:
 Search through top headlines from 40 countries <br>
 Conduct natural language processing for top headlines across global sources <br>
 Identify the most popular keywords worldwide <br>
-Code:
+
+*Code:*
   - Choose countries that we want to get the information from and create columns that we need.
  ![image](https://user-images.githubusercontent.com/120151846/206617974-64603f74-006a-49eb-b16a-75c6d6caaed7.png)
  ![image](https://user-images.githubusercontent.com/120151846/206618036-525bc2e7-350a-45cf-9682-209ceed067e6.png)
@@ -56,7 +58,7 @@ Code:
 
 ![image](https://user-images.githubusercontent.com/120151846/206618458-07d399e1-11af-43f2-b2f9-3e82094860d8.png)
 
-Result and Visualization:
+## Result and Visualization:
 ![image](https://user-images.githubusercontent.com/120151846/206618571-7d851bf7-a7a0-4e76-94bd-2bf55009d868.png)
 ![image](https://user-images.githubusercontent.com/120151846/206618601-b9542606-5400-4077-b689-d908b034bbd5.png)
 ![image](https://user-images.githubusercontent.com/120151846/206618640-70c5f88d-ab93-4543-9290-759f211a1783.png)
