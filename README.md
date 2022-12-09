@@ -77,8 +77,11 @@ Null hypothesis: no difference between control and treatment groups <br>
 Alternative hypothesis: control group and treatment group are different <br>
 
 I am 95% confident that the true mean of success is between (0.19799, 0.198). Since 19.799% is much greater than 0%, we can reject the null hypothesis. <br>
+
 Thus, we can conclude that initiating the background check earlier in the hiring process is effective.
 
+![image](https://user-images.githubusercontent.com/120151846/206619891-f5a82098-d6e9-4706-b929-c89abb4b82af.png)
+![image](https://user-images.githubusercontent.com/120151846/206619935-f79b788e-671b-4e02-8415-635e286a2a7d.png)
 
 
 
