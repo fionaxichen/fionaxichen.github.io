@@ -152,12 +152,16 @@ We can first analyze new users
 
 ![image](https://user-images.githubusercontent.com/120151846/206622477-e00bcc42-3984-4a18-ae4e-016290961e10.png)
 
-Engagement also includes new users
-- Analyze user lifetime using retention analysis: It shows user lifetime is around 20 weeks. This means most of users will churn in 20 weeks after they first signup.
+- Engagement also includes new users
+  * Analyze user lifetime using retention analysis: 
+      * It shows user lifetime is around 20 weeks. 
+      * This means most of users will churn in 20 weeks after they first signup.
 
 ![image](https://user-images.githubusercontent.com/120151846/206622615-115e7546-3955-4f3f-aff2-d7017688f855.png)
 
-- Analyze devices including computer, phone, and tablet: There is a steep drop in both phone and tablet engagement rates. It is likely that there’s a problem with phone and tabletrelated to long time user retention
+- Analyze devices including computer, phone, and tablet: 
+  * There is a steep drop in both phone and tablet engagement rates. 
+  * It is likely that there’s a problem with phone and tabletrelated to long time user retention
 
 ![image](https://user-images.githubusercontent.com/120151846/206622684-09f5f88f-6462-480d-9d72-d1295de02782.png)
 
