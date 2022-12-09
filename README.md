@@ -162,8 +162,8 @@ Engagement also includes new users
 ![image](https://user-images.githubusercontent.com/120151846/206622684-09f5f88f-6462-480d-9d72-d1295de02782.png)
 
 - Analyze emails and email clickthrough rate
-  Email sent = number of weekly digest + number of reengagement emails
-    Clickthrough rate plummeted, indicating clearly that the problem has to do with emails in addition to devices
+  * Email sent = number of weekly digest + number of reengagement emails
+  * Clickthrough rate plummeted, indicating clearly that the problem has to do with emails in addition to devices
 
 
 
