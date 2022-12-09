@@ -7,14 +7,14 @@ Currently, we are flooded with information from different media outlets. This fl
 We will create a Flask app that gathers data on news from all over the world, all across the web, and processes them to calculate the importance of any keyword on a given day or over a period of time. The program would be able to show you how important a topic (keyword) is and provide news articles that are related to the topic.
 
 ## Potential Uses:
-Journalists monitoring news and tracking the trend of a certain recent news topic
-Public browsing daily news in a more quick and effective manner
-Institutions/individuals looking up themselves to manage their public image and level of discussion
+1. Journalists monitoring news and tracking the trend of a certain recent news topic
+2. Public browsing daily news in a more quick and effective manner
+3. Institutions/individuals looking up themselves to manage their public image and level of discussion
 
 ## Function 1: Everything
-Allows users to input a keyword using its API parameter “q”
-Searches through articles from over 80,000 large and small news sources and blogs 
-Return articles that contain the keyword
+Allows users to input a keyword using its API parameter “q” <br>
+Searches through articles from over 80,000 large and small news sources and blogs <br>
+Return articles that contain the keyword <br>
 Code:
   - Get the time range using datetime 
   - Extract data for all news articles from News API with the parameters
@@ -31,9 +31,9 @@ Code:
  ![image](https://user-images.githubusercontent.com/120151846/206617821-0f558f8a-ede3-4ff2-bafb-45f06ec8ed49.png)
  
 ## Function 2: Top Headlines
-Search through top headlines from 40 countries
-Conduct natural language processing for top headlines across global sources
-Identify the most popular keywords worldwide
+Search through top headlines from 40 countries <br>
+Conduct natural language processing for top headlines across global sources <br>
+Identify the most popular keywords worldwide <br>
 Code:
   - Choose countries that we want to get the information from and create columns that we need.
  ![image](https://user-images.githubusercontent.com/120151846/206617974-64603f74-006a-49eb-b16a-75c6d6caaed7.png)
@@ -56,7 +56,7 @@ Code:
 
 ![image](https://user-images.githubusercontent.com/120151846/206618458-07d399e1-11af-43f2-b2f9-3e82094860d8.png)
 
- Result and Visualization:
+Result and Visualization:
 ![image](https://user-images.githubusercontent.com/120151846/206618571-7d851bf7-a7a0-4e76-94bd-2bf55009d868.png)
 ![image](https://user-images.githubusercontent.com/120151846/206618601-b9542606-5400-4077-b689-d908b034bbd5.png)
 ![image](https://user-images.githubusercontent.com/120151846/206618640-70c5f88d-ab93-4543-9290-759f211a1783.png)
