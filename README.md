@@ -95,4 +95,27 @@ The reason for social media channel’s lower reduction in cost is that people w
 ![image](https://user-images.githubusercontent.com/120151846/206620200-557aa134-e790-4ec8-b2ac-718aa8403c8f.png)
 ![image](https://user-images.githubusercontent.com/120151846/206620246-c0f52c34-96d2-4c18-99b9-66b966f0f3e0.png)
 
+###### 3. What other observations and recommendations do you have for us, based on this data? (for example, what else did you find that seems relevant, or what else would you want to test if we ran an additional experiment?)
+
+Observations:
+1. Job search site channel
+  - Lowest conversion rate in the control group
+  - Conversion rate will significantly improve if initiating background check ealier
+2. Shopper referral bonus channel
+  - Higher conversion rate in the control group
+  - Conversion rate will significantly improve if initiating background check ealier
+3. Social media channel
+  - Highest conversion rate in the control group
+  -  Initiating background check earlier will not significantly improve conversion rate
+4. Web search engine channel
+- Lower conversion rate in the control group
+- Conversion rate will significantly improve if initiating background check ealier
+![image](https://user-images.githubusercontent.com/120151846/206620882-3794745d-3c4b-4712-877c-7f2f851b738b.png)
+
+Recommendations:
+1. The conversion rate in social media channel’s treatment group did not improve very much. One reason is that its conversion rate in the control group is already the highest. However, even with such high control conversion rate, its treatment conversion rate is actually the lowest amonth the four channels. Therefore, we could evaluate the ROI of both control and treatment groups, which is channel advertising cost + $30 background fee. If treatment ROI is larger than that of the control group then we should initiate background check earlier. If it is smaller than its control group, then we should not initiate early.
+2. Perform another A/B Test to evaluate if mandatory orientation could improve the conversion rate.
+
+
+
 
