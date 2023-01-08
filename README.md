@@ -127,7 +127,7 @@ Recommendations:
 1. The conversion rate in social media channel’s treatment group did not improve very much. One reason is that its conversion rate in the control group is already the highest. However, even with such high control conversion rate, its treatment conversion rate is actually the lowest amonth the four channels. Therefore, we could evaluate the ROI of both control and treatment groups, which is channel advertising cost + $30 background fee. If treatment ROI is larger than that of the control group then we should initiate background check earlier. If it is smaller than its control group, then we should not initiate early.
 2. Perform another A/B Test to evaluate if mandatory orientation could improve the conversion rate.
 
-# Project 3: User Engagement Analysis Project (Used DBeaver PostgresSQL and Tableau)
+# Project 3: User Engagement Analysis Project (Used DBeaver PostgreSQL and Tableau)
 
 ## Context
 User dataset event.csv and email.csv to analyze why the user engagement, which is the number of logins, decreased last month.
