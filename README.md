@@ -110,16 +110,16 @@ The reason for social media channel’s lower reduction in cost is that people w
 Observations:
 1. Job search site channel
   - Lowest conversion rate in the control group
-  - Conversion rate will significantly improve if initiating background check ealier
+  - Conversion rate will significantly improve if initiating background check earlier
 2. Shopper referral bonus channel
   - Higher conversion rate in the control group
-  - Conversion rate will significantly improve if initiating background check ealier
+  - Conversion rate will significantly improve if initiating background check earlier
 3. Social media channel
   - Highest conversion rate in the control group
   -  Initiating background check earlier will not significantly improve conversion rate
 4. Web search engine channel
 - Lower conversion rate in the control group
-- Conversion rate will significantly improve if initiating background check ealier
+- Conversion rate will significantly improve if initiating background check earlier
 
 ![image](https://user-images.githubusercontent.com/120151846/206620882-3794745d-3c4b-4712-877c-7f2f851b738b.png)
 
