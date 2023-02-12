@@ -95,7 +95,7 @@ Thus, we can conclude that initiating the background check earlier in the hiring
 
 ## Question #2: We’d like to know if this change is cost-effective. How should we think about the cost-effectiveness of this change? Please be as specific as you can here.
 
-In this case, the average cost per first batch completion is the most effective metric to evaluate whether this is change is cost-effective or not. <br>
+In this case, the average cost per first batch completion is the most effective metric to evaluate whether this change is cost-effective or not. <br>
 
 Based on the Tableau chart, we can see that cost per first batch completion for all four channels have reduced when we initiate background check earlier. It is especially cost-effective for job search site channel, shopper referral bonus channel, and web search engine channel. <br>
 
