@@ -77,11 +77,15 @@ Identify the most popular keywords worldwide <br>
 # Project 2: Shopper Hiring Problem Project (Used BigQuery SQL and Tableau)
 
 ## Context
-In this simulated dataset, we have been running an A/B test on our shopper hiring funnel to see if initiating the required applicant background check earlier in the process would improve conversion rates. The theory is that shoppers will maintain their momentum and be more likely (and start more quickly) if the required prerequisites are completed faster. <br>
+In this simulated dataset, we have been running an A/B test on our shopper hiring funnel to see if initiating the required applicant background check earlier in the process would improve conversion rates. <br>
+
 The background check costs us $30 to complete. A shopper must both activate the prepaid debit card we mail to them (to use when paying for groceries purchased for our customers) and have successfully passed their background check to complete their first batch of orders. Completing the online orientation, however, is optional. <br>
+
 In this scenario, “success” for our shopper recruiting funnel is achieved if they complete their first batch (see “first_batch_completed_date”)
 
 ## Question #1: Based on this data. What can we conclude at this point from the A/B test (in which we tried initiating the background check earlier in the hiring process for the treatment shoppers)? And how confident should we be in this conclusion?
+
+The theory is that shoppers will maintain their momentum and be more likely (and start more quickly) if the required prerequisites are completed faster.
 
 Null hypothesis: no difference between control and treatment groups <br>
 Alternative hypothesis: control group and treatment group are different <br>
