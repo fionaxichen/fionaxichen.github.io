@@ -27,12 +27,12 @@ Return articles that contain the keyword <br>
   - Calculate the popularity
   - Transfer data from Json into lists using for loops
  
-![image](https://user-images.githubusercontent.com/120151846/206617522-eb1823bb-8683-4715-98ed-433bd909f834.png)
+![image](https://user-images.githubusercontent.com/120151846/223566925-01e5c05b-18a8-4f31-b0e3-b957d2ae03e7.png)
 
-  - Create a table that contains: Title, Published date, Description, Source, 
+  - Create a table that contains: Title, Published date, Description, Source, URL
   - Return the popularity of the keyword and table of related articles’ information
  
- ![image](https://user-images.githubusercontent.com/120151846/206617821-0f558f8a-ede3-4ff2-bafb-45f06ec8ed49.png)
+![image](https://user-images.githubusercontent.com/120151846/223567224-dbc8177c-6dd9-4bc8-a170-b1e2c7db505d.png)
  
 ## Function 2: Top Headlines
 Search through top headlines from 40 countries <br>
@@ -70,7 +70,7 @@ Identify the most popular keywords worldwide <br>
 ## Result and Visualization:
 
 ![image](https://user-images.githubusercontent.com/120151846/206618571-7d851bf7-a7a0-4e76-94bd-2bf55009d868.png)
-![image](https://user-images.githubusercontent.com/120151846/206618601-b9542606-5400-4077-b689-d908b034bbd5.png)
+![image](https://user-images.githubusercontent.com/120151846/223566631-df38559e-d7fa-4b26-9cd7-10b54e3aa796.png)
 ![image](https://user-images.githubusercontent.com/120151846/206618640-70c5f88d-ab93-4543-9290-759f211a1783.png)
 
 
